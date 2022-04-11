@@ -1,5 +1,7 @@
 # pi-robot-controller
 
+![Photo of my robot](/photos/robot_photo.jpg "My robot")
+
 ## Description
 This is a collection of Python scripts for controlling a custom-built robot on Raspberry Pi. It allows the robot to be controlled by a wireless PS3 gamepad and also creates a video stream. The motor driver uses the `adafruit_motorkit` library and supports the [AdaFruit Motor Hat](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi). Since this code is robot-specific, it will probably need modification before it will work for your project. But if you find it helpful, feel free to use it.
 
