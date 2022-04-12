@@ -28,5 +28,9 @@ Ensure Python packages used in the script are installed: evdev, picamera, socket
 * D-Pad Left - Previous camera effect
 * D-Pad Right - Next camera effect
 
-4. Camera usage: This script uses the PiCamera library to stream video from the Raspberry Pi Camera Module V2. I have used the RPI Camera Viewer App on [Android](https://play.google.com/store/apps/details?id=ca.frozen.rpicameraviewer&gl=US) or [iOS](https://apps.apple.com/us/app/rpi-camera-viewer/id1312142156) to view the video streams. You can cycle through various camera effects, such as solarize, negative, or oil paint. I have found the cycling of effects to sometimes cause the video stream to crash, so this feature is experimental.
+4. Camera usage: This script uses the PiCamera library to stream video from the Raspberry Pi Camera Module V2. I have used the RPI Camera Viewer App on [Android](https://play.google.com/store/apps/details?id=ca.frozen.rpicameraviewer&gl=US) or [iOS](https://apps.apple.com/us/app/rpi-camera-viewer/id1312142156) to view the video streams. You can cycle through various camera effects, such as solarize, negative, or oil paint.  Below is a picture the robot took in my yard using the negative image effect:
+
+![Negative effect image](/photos/yard-negative-effect-400.jpg "Negative effect image")
+
+Note: I have found the cycling of effects to sometimes cause the video stream to crash, so this feature is experimental.
 
